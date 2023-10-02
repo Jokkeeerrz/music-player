@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.music-player{
+  background-color: #0c6604;
+  border: 1px solid #15e90e;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.control-button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.next-prev {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.control-button:hover {
+  background-color: #005bbf
+}
+
+.volume {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.progress {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #0073e6;
+  width: 0;
+}
+
+.duration-bar {
+  background-color: #ddd;
+  height: 5px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.duration-fill {
+  background-color: #0073e6;
+  height: 100%;
+  width: 0;
+  position: relative;
+}
